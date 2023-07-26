@@ -1,0 +1,78 @@
+main {
+    .styled-text {
+        color: $color-especial1;
+        font-size: 15px;
+        font-weight: bold;
+        font-style: italic;
+        line-height: 1.0;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        background-color: rgba(235, 206, 228, 0.133);
+    }
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: space-evenly;
+        h2 {
+            flex-basis: 100%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .div-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            img {
+                width: 20%;
+                margin-bottom: 10px;
+            }
+            p {
+                text-align: center;
+                font-weight: bold; 
+            }
+        }
+    }
+    .carta {
+        text-align: center;
+    }
+    .contact-info {
+        background-color: $color-especial;
+        padding: 20px;
+        border: $variables-especial;
+        text-align: center;
+        max-width: $variables-especial1;
+        margin: 0 auto;
+        p {
+            margin: 10px 0;
+            font-size: 16px;  
+        }
+    }
+    
+    .consulta-form {
+        max-width: $variables-especial1;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: $color-especial;
+        div {
+            margin-bottom: 10px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 5px;
+            border: $variables-especial;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            &:hover {
+                background-color: #45a049;
+            }    
+        }    
+    }
+}

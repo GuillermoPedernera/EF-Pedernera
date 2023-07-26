@@ -1,0 +1,36 @@
+header {
+    nav {
+        position: relative;
+        ul.menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: $color-especial;
+            float: right;
+            li {
+                display: inline-block;
+                a {
+                    display: block;
+                    padding: 10px 20px;
+                    text-decoration: none;
+                    color: $color-especial1;
+                    &:hover {
+                        background-color: #ddd;
+                    }
+                }
+            }
+        }
+    }
+    .logo img {
+        width: 50px;
+        height: auto;
+    }
+    .rotiseria-title {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        font-size: 32px;
+        border: 2px solid #000;
+        padding: 10px;
+        background-color: $color-especial;
+    }
+}
