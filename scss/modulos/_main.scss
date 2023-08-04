@@ -1,3 +1,9 @@
+@media screen and (max-width: 767px) {
+    .carta {
+        max-width: 80%;
+    }
+}
+
 main {
     .styled-text {
         color: $color-especial1;
@@ -36,6 +42,9 @@ main {
     .carta {
         text-align: center;
     }
+
+    
+
     .contact-info {
         background-color: $color-especial;
         padding: 20px;
